@@ -1,0 +1,46 @@
+/* Homepage.css */
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.header,
+.contact,
+.footer {
+  width: 100%; /* Make each section span full width */
+  max-width: 1200px; /* Optional max width for better readability */
+  padding: 20px;
+}
+
+.header {
+  background-color: #1e90ff;
+  color: white;
+  padding: 50px;
+}
+
+.services,
+.contact {
+  margin: 30px 0;
+}
+
+.footer button {
+  padding: 10px 20px;
+  background-color: #ff8c00;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.footer button:hover {
+  background-color: #ffa500;
+}
